@@ -50,11 +50,10 @@
 .home-text-btn {
   display: flex;
   gap: 20px;
-}
-
-.home-text-btn > .blue-btn {
-  background: var(--first-color);
-  color: var(--color-white);
+  > .blue-btn {
+    background: var(--first-color);
+    color: var(--color-white);
+  }
 }
 
 .home-text-btn > .blue-btn:hover {
